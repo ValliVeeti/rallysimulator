@@ -1,5 +1,6 @@
 package main;
 
+//self explanatory no need for comments
 public abstract class RallyCar {
     private String make;
     private String model;
@@ -19,5 +20,5 @@ public abstract class RallyCar {
     public int getHorsepower() {
         return horsepower;
     }
-    abstract double calculatePerformance();
+    abstract int calculatePerformance();
 }

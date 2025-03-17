@@ -1,14 +1,16 @@
 package main;
 
+//self explanatory no need for comments
 public class Driver {
     String name;
     String country;
     int points;
     RallyCar car;
 
-    private Driver (String name, String country, RallyCar car){
+    public Driver (String name, String country, RallyCar car){
         this.name = name;
         this.country = country;
+        this.car = car;
     }
 
     public String getName() {
